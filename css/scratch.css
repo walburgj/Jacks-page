@@ -1,0 +1,67 @@
+.common {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.mainbody {
+    background-color: blueviolet;
+    height: 1420px;
+  
+}
+
+.footer {
+    background-color: black
+    color grey; 
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    top: 0%;
+   
+   
+}
+
+.centered-list {
+    list-style-position: inside;  /* Keep bullets close to the text */
+    text-align: center;           /* Center the text */
+    padding: 0;
+}
+
+.centered-list li {
+    display: list-item;
+}
+
+img {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+nav {
+    background-color: grey;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+/* Adjust spacing between the mainbody and the video */
+h1 + iframe {
+    background-color: blueviolet;
+    margin-top: 10px; /* Adjust this value as needed */
+}
